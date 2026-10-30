@@ -51,7 +51,7 @@
 <p>Uygulama aşağıdaki verileri üçüncü taraf hizmetler aracılığıyla otomatik olarak toplar:</p>
 <ul>
   <li><strong>Uygulama kullanım verileri:</strong> Hangi ekranların açıldığı, uygulama içi olaylar (örneğin soru ekleme, PDF oluşturma, satın alma ekranının gösterilmesi) ve onboarding'de seçtiğiniz sınav türü, hedef üniversite, hedef bölüm ve hedef net bilgileri.</li>
-  <li><strong>Cihaz bilgileri ve kimlikleri:</strong> Uygulamanın kurulumuna özel rastgele bir cihaz kimliği, cihaz modeli, işletim sistemi sürümü, uygulama sürümü, dil ve bölge ayarları.</li>
+  <li><strong>Cihaz bilgileri ve kimlikleri:</strong> Uygulamanın kurulumuna özel rastgele bir cihaz kimliği, cihaz modeli, işletim sistemi sürümü, uygulama sürümü, dil ve bölge ayarları. Android'de bunlara ek olarak Firebase Analytics, Google'ın reklam kimliğini (Advertising ID) de toplar; uygulamada reklam olmadığından bu kimlik yalnızca kullanım istatistikleri için kullanılır. Reklam kimliğini cihazınızın Ayarlar &gt; Google &gt; Reklamlar menüsünden sıfırlayabilir veya silebilirsiniz.</li>
   <li><strong>Yaklaşık konum:</strong> IP adresiniz ve bundan çıkarılan yaklaşık konum (ülke, şehir, bölge). Hassas konum (GPS) kullanılmaz.</li>
   <li><strong>Çökme ve tanılama verileri:</strong> Uygulama çöktüğünde oluşan teknik rapor ve performans bilgileri.</li>
   <li><strong>Satın alma bilgileri:</strong> Satın alma ve geri yükleme işlemleri ile premium durumunuz. Ödeme bilgilerinizi (kart bilgileri gibi) biz görmeyiz; ödeme App Store veya Google Play tarafından alınır.</li>
@@ -136,7 +136,7 @@
 <p>The App automatically collects the following data through third-party services:</p>
 <ul>
   <li><strong>Usage data:</strong> Screens opened, in-app events (for example adding a question, creating a PDF, the purchase screen being shown), and the exam type, target university, target department and target scores you choose during onboarding.</li>
-  <li><strong>Device information and identifiers:</strong> A random identifier specific to the App's installation, device model, operating system version, app version, language and region settings.</li>
+  <li><strong>Device information and identifiers:</strong> A random identifier specific to the App's installation, device model, operating system version, app version, language and region settings. On Android, Firebase Analytics also collects Google's Advertising ID; since the App contains no ads, it is used only for usage statistics. You can reset or delete it in your device's Settings &gt; Google &gt; Ads.</li>
   <li><strong>Approximate location:</strong> Your IP address and the approximate location derived from it (country, city, region). Precise (GPS) location is not used.</li>
   <li><strong>Crash and diagnostic data:</strong> Technical reports created when the App crashes, and performance information.</li>
   <li><strong>Purchase information:</strong> Purchase and restore transactions and your premium status. We never see your payment details (such as card numbers); payment is handled by the App Store or Google Play.</li>
